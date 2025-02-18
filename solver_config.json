@@ -1,0 +1,17 @@
+{
+    "entry_point": "hexaly_batch_optimizer:HexalyBatchOptimizer",
+    "default_params": {
+        "time_limit": 30
+    },
+    "optimizer_type": "CommercialSolver",
+    "description": "Hexaly-based optimizer for batch scheduling problems using constraint programming",
+    "compatible_problems": ["BatchScheduling"],
+    "parameters": {
+        "time_limit": {
+            "type": "int",
+            "description": "Maximum optimization time in seconds"
+        }
+    },
+    "requirements": ["hexaly"],
+    "commercial_license_note": "Requires valid Hexaly license"
+}
