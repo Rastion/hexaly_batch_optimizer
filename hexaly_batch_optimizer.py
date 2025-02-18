@@ -1,4 +1,4 @@
-import hexaly
+import hexaly.optimizer
 from qubots.base_optimizer import BaseOptimizer
 from qubots.base_problem import BaseProblem
 
