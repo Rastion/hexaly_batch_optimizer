@@ -1,2 +1,2 @@
 qubots
-hexaly
+hexaly -i https://pip.hexaly.com
